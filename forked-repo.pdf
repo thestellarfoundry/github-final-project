@@ -1,0 +1,2 @@
+# Execute the API call
+curl -s https://api.github.com/repos/thestellarfoundry/mcino-Introduction-to-Git-and-GitHub | jq '.parent.clone_url'
